@@ -1,0 +1,16 @@
+package lab_25_9;
+
+import java.util.Scanner;
+
+public class SumofTwo{
+    public static void main(String[] args) {
+        System.out.println("Enter 2 digit number :");
+        Scanner sc=new Scanner(System.in);
+        int n=sc.nextInt();
+        int a=n%10;
+        int b=n/10;
+        System.out.println(a);
+        System.out.println(b);
+
+    }
+    }
