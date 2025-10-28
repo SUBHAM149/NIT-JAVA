@@ -1,0 +1,13 @@
+package lab_23_9;
+
+public class PrintSimpleInterest {
+    public static void main(String[] args) {
+        int principal=Integer.parseInt(args[0]);
+        double rate=Double.parseDouble(args[1]);
+        int time=Integer.parseInt(args[2]);
+        double SimpleInterest=(principal*rate*time)/100;
+        double amount=principal+rate+time;
+        System.out.println("Simple interest is: "+SimpleInterest);
+        System.out.println("Simple Interest is "+amount);
+    }
+}
