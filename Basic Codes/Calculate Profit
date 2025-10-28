@@ -1,0 +1,12 @@
+package lab_23_9;
+
+public class CalculateProfit {
+    public static void main(String[] args) {
+        int price=Integer.parseInt(args[0]);
+        int sellingprice=price+((price*27)/100);
+        int profit=((sellingprice-price)*5)/100;
+
+        System.out.println("Total sellingpricen is:"+sellingprice);
+        System.out.println("Total profit is :"+profit);
+    }
+}
