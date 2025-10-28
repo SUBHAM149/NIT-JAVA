@@ -1,0 +1,28 @@
+package lab_23_9;
+
+public class CalculateDiscount {
+    public static void main(String[] args) {
+        int bill=Integer.parseInt(args[0]);
+        if(bill<5000){
+            int discount=bill*5/100;
+            int amount=bill-discount;
+            System.out.println("Discount persentage is:5");
+            System.out.println("Discount is: "+discount);
+            System.out.println("Total payable amount is:"+amount);
+        }
+        else if (bill>=5000 && bill<10000) {
+            int discount=bill*10/100;
+            int amount=bill-discount;
+            System.out.println("Discount persentage is:10");
+            System.out.println("Discount is:"+discount);
+            System.out.println("Total payable amount is:"+amount);
+        }
+        else{
+            int discount=bill*15/100;
+            int amount=bill-discount;
+            System.out.println("Discount persentege is:15");
+            System.out.println("Discount is:"+discount);
+            System.out.println("Total payable amount is:"+amount);
+        }
+    }
+}
