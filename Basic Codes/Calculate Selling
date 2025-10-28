@@ -1,0 +1,14 @@
+package lab_23_9;
+
+public class CalculateSelling {
+    public static void main(String[] args) {
+        int buy=1200;
+        int repair=250;
+        int color=350;
+        int accessories=500;
+        int totalspending=buy+repair+color+accessories;
+        int profit=1500;
+        int sellingprice=totalspending+profit;
+        System.out.println("Selling Price is :"+sellingprice);
+    }
+}
