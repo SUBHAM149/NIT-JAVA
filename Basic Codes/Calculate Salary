@@ -1,0 +1,10 @@
+public class CalculateSalary {
+    public static void main(String[] args) {
+        int basic=Integer.parseInt(args[0]);
+        int hra=(basic*15)/100;
+        int ca=(basic*15)/100;
+        int ea=(basic*15)/100;
+        int salary=basic+hra+ca+ea;
+        System.out.println("total salaery :"+salary);
+    }
+}
