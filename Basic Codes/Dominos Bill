@@ -1,0 +1,71 @@
+// public class DominosBill {
+//     public static void main(String[] args) {
+//         int priceChickenRoll=60;
+//         int priceVegPuffs=25;
+
+//         int qtyChickenRoll=4;
+//         int qtyVegPuff=3;
+
+//         int totalChickenRoll= priceChickenRoll*qtyChickenRoll;
+//         int totalVegPuff=priceVegPuffs*qtyVegPuff;
+
+        
+//         int discount = 50;
+
+//         int grossAmount = totalChickenRoll + totalVegPuff;
+//         int finalAmount = grossAmount - discount;
+
+//         System.out.println("--------- DOMINOS BILL ---------");
+//         System.out.println("Chicken Rolls Quantity (" + qtyChickenRoll + " @ Rs " + priceChickenRoll + "): Rs " + totalChickenRoll);
+//         System.out.println("Vegetable Puffs Quantity (" + qtyVegPuff + " @ Rs " + priceVegPuffs + "): Rs " + totalVegPuff);
+//         System.out.println("---------------------------------");
+//         System.out.println("Gross Amount: Rs " + grossAmount);
+//         System.out.println("Special Discount: Rs " + discount);
+//         System.out.println("Final Bill Amount: Rs " + finalAmount);
+//         System.out.println("---------------------------------");
+
+//     }
+// }
+public class DominosBill {
+
+    public static void main(String[] args) {
+        int priceChickenRoll=60;
+        int priceVegPuff=25;
+
+        int qtyChickenRoll=4;
+        int qtyVegPuff=3;
+
+        int totalPriceChickenRoll=priceChickenRoll*qtyChickenRoll;
+        int totalPriceVegPuff=priceVegPuff*qtyVegPuff;
+
+        int discount=50;
+
+        int totalChickenRoll=totalPriceChickenRoll;
+        int totalVegPuff=totalPriceVegPuff;
+
+        int grossAmount=totalChickenRoll+totalVegPuff;
+        int FinalAmount=grossAmount-discount;
+
+        System.out.println("---------DOMINOS----------");
+        System.out.println("Quantity of chicaken roll is: "+qtyChickenRoll);
+        System.out.println("Quantity of VegPuff is: "+qtyVegPuff);
+        System.out.println("-----------------------------------------");
+
+        System.out.println("The Price of Chicken Roll 1 pics is "+priceChickenRoll);
+        System.out.println("The Price of VegPuff 1 pics is "+priceVegPuff);
+        System.out.println("-----------------------------------------");
+
+        System.out.println("Total Price Of Chicken roll is : "+totalChickenRoll);
+        System.out.println("Total Price of Veg Puff is : "+totalVegPuff);
+        System.out.println("-----------------------------------------");
+
+        System.out.println("Gross Amount of all : "+grossAmount);
+        System.out.println("Discount is : "+FinalAmount);
+        System.out.println("Total Price : "+FinalAmount);
+        System.out.println("-----------------------------------------");
+    
+
+
+
+    }
+}
