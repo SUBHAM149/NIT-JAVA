@@ -1,0 +1,7 @@
+public class FindLengthOfArray {
+
+    public static void main(String[] args) {
+       
+        System.out.println("Finding Length Of Arraya is :"+args.length);
+    }
+}
