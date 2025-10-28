@@ -1,0 +1,13 @@
+package lab_23_9;
+
+public class ConvertDaysToYear {
+    public static void main(String[] args) {
+        int days=Integer.parseInt(args[0]);
+        int years=days/365;
+        int month=days%365/30;
+        int day=days%365%30;
+        System.out.println("Number of years are: "+years);
+        System.out.println("Number of months are: "+month);
+        System.out.println("Number of days are: "+day);
+    }
+}
