@@ -1,0 +1,18 @@
+package lab_23_9;
+
+public class ElectricitiBill {
+    public static void main(String[] args) {
+        int unit=Integer.parseInt(args[0]);
+        if(unit<=100){
+            System.out.println("Charge is :160");
+        }
+        else if(unit>=101 && unit<=250){
+            int charge=160+((unit-100)*1);
+            System.out.println("Charge is:"+charge);
+        }
+        else{
+            double charge=160+150*1+((unit-250)*1.2);
+            System.out.println("Charge is: "+charge);
+        }
+    }
+}
