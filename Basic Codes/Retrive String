@@ -1,0 +1,8 @@
+public class RetriveString {
+    public static void main(String[] args) {
+        String s1="subham";
+        char ch=s1.charAt(5);
+        System.out.println("String is: "+ch);
+
+    }
+}
