@@ -1,0 +1,27 @@
+class CommandLineOperation 
+{
+	public static void main(String[] args) 
+	{
+		if(args.length==0) {
+			System.out.println("No argument found");
+			
+		}else if(args.length==1) {
+			int x = Integer.parseInt(args[0]);
+			System.out.println("Square of the number is : "+x*x);
+		}else if(args.length==2) {
+			int x = Integer.parseInt(args[0]);
+		
+			int y = Integer.parseInt(args[1]);
+			System.out.println("Sum of two numbers is : "+(x+y));
+			System.out.println("Product of two numbers is : "+(x*y));
+		}else {
+			int sum = 0;
+			for(int i = 0;i<args.length;i++) {
+				int n = Integer.parseInt(args[i]);
+				sum+=n;
+			}
+			System.out.println("Sum of all numbers is : "+sum);
+			
+		}
+	}
+}
