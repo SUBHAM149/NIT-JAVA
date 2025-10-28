@@ -1,0 +1,12 @@
+package lab_25_9;
+
+public class CurvedSurfaceArea {
+    public static void main(String[] args){
+        int side=Integer.parseInt(args[0]);
+        if(side<0){
+        System.out.println("Invalid Input");
+        }
+        int area=6*(side*side);
+        System.out.println(area);
+    }
+}
