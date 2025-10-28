@@ -1,0 +1,20 @@
+public class Sum {
+    public static void main(String[] args) {
+        int x=100;
+        int y=200;
+        int sum=x+y;
+        int sub=x-y;
+        System.out.println("Sum is:"+x+y);
+        System.out.println(+x+y);
+        System.out.println(""+x+y);
+        System.out.println(40+40+"NIT"+80+80);
+        System.out.println(x+y+"subham"+20+20+(20+30));
+        System.out.println("subham"+(10+30)+"subham"+x+y+10+30);
+        System.out.printf("Sum is %d",sum);
+        System.out.println();
+        System.out.printf("Sub is %d",sub);
+        System.out.println();
+        System.out.println("subham"+"subham"+90+90+(20+30+"subham")+20+30);
+        
+    }
+}
