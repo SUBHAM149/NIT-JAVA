@@ -1,0 +1,8 @@
+public class ReadCharacter {
+    public static void main(String[] args) {
+        System.out.println("Enetr your gender [M/F]");
+
+        char ch=args[0].charAt(0);
+        System.out.println("Your gender is:"+ch);
+    }
+}
