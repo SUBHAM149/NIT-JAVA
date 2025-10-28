@@ -1,0 +1,12 @@
+package lab_25_9;
+public class Interest{
+    public static void main(String[]args){
+        int principle=100;
+        int rate=10;
+        int time=3;
+        int amount=principle*(1+100+rate)*time;
+        System.out.println("Amount after 3 years = "+amount);
+    }
+    
+}
+
