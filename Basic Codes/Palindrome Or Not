@@ -1,0 +1,15 @@
+public class PalindromeOrNot {
+    public static void main(String[] args) {
+        int rev=0;
+        int num=Integer.parseInt(args[0]);
+        for (int i=num;i!=0;i++){
+            rev=rev*10+i%10;
+        }
+        if(rev==num){
+            System.out.println(""+num+" is a pallindrome number");
+        }
+        else{
+            System.out.println(""+num+" is not a pallindrome number");
+        }
+    }
+}
