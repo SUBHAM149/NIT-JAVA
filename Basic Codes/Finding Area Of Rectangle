@@ -1,0 +1,8 @@
+public class FindAreaOfRectangle {
+    public static void main(String[] args) {
+        int length=Integer.parseInt(args[0]);
+        int breath=Integer.parseInt(args[1]);
+        int areaOfRectangle =length*breath;
+        System.out.println("AreaOfRectangle is:"+areaOfRectangle);
+    }
+}
